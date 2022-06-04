@@ -27,7 +27,7 @@
 ## Study Design: MechaCar vs Competition
 In my study we would see if there is a correlation between the mpg of sedans and the price of those sedans. Then we would compare the price of the Mecha Cars that have the highest mpg compared to the price of the competitior's cars with the highest mpg. 
 ### Metrics 
-We would need to have the followin information on the vehicles to write our analysis. 
+We would need to analyze the following metrics: 
 * Price of Vehicles 
 * MPG of Vehicles 
 * Types of Vehicle (sedans, suvs, crvs)
