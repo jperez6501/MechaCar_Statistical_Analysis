@@ -13,5 +13,12 @@
 
 * Next lets look at the statistics summary table that is grouped by lot. Now we get a statistically summary that is grouped by lot (see below). When looking at lot 1 and 2, the variance in psi is well below the 100 lb limit; 0.98 and 7.47 respectably. However, when looking at the variance for just lot 3, the variance is 170.28 which is almost twice the limit of 100 psi according to the design specifications. This means that lot 3 exceeds the desgin specification limits.  
 <img width="490" alt="Screen Shot 2022-06-04 at 12 41 57 PM" src="https://user-images.githubusercontent.com/100246124/172017201-b5b91548-fa88-47ce-900a-572ced107a29.png">
+## T-Tests on Suspension Coils
+* When looking at the t test that compares PSI across all manufacturing lots, the p-value is 0.06. The p-value is greated than 0.05 therefore we do not have suficient evidence to reject the null hypothesis so the two means are statistically similar. 
+<img width="549" alt="Screen Shot 2022-06-04 at 1 21 57 PM" src="https://user-images.githubusercontent.com/100246124/172018373-d86318f4-d340-4627-9062-1149b8c108a5.png">
+* When looking at the t-test for lot 1, the p-value is 1. Again, since it is greater than the standard p-value of 0.05 we do not have suficient evidence to reject the null hypothesis. 
+* Similarly, Lot 2 has a p-value of 0.6 which again would indicated that we do not have suficient evidence to reject the null hypothesis. 
+* Lastly, when looking at the t test for the lot 3, th value is 0.04. Because it is smaller than 0.05, we can reject the null hypothesis and we would state that the two popuplation means are not statistically different. 
+<img width="615" alt="Screen Shot 2022-06-04 at 1 22 27 PM" src="https://user-images.githubusercontent.com/100246124/172018381-ee57b668-4a20-411e-8054-2f990045c152.png">
 
 
