@@ -25,9 +25,16 @@
 <img width="615" alt="Screen Shot 2022-06-04 at 1 22 27 PM" src="https://user-images.githubusercontent.com/100246124/172018381-ee57b668-4a20-411e-8054-2f990045c152.png">
 
 ## Study Design: MechaCar vs Competition
+In my study we would see if there is a correlation between the mpg of sedans and the price of those sedans. Then we would compare the price of the Mecha Cars that have the highest mpg compared to the price of the competitior's cars with the highest mpg. 
 ### Metrics 
+We would need to have the followin information on the vehicles to write our analysis. 
+* Price of Vehicles 
+* MPG of Vehicles 
+* Types of Vehicle (sedans, suvs, crvs)
 ### Null Hypothesis
+H0 Mecha Car has the lowest prices on sedan cars that rate over 40 mpg than its competitors. 
+Ha Mecha Car does not have the lowest prices on sedan cars that rate over 40 mpg than its competitors. 
 ### Statistical Test 
+The independent value would be the mpg and the dependent value would be the price of cars that have an mpg of over 40mpg. Since we have one independent variable, we would run a single linear regression test to see if mpg affects the price of cars. Next we would compare this with Mecha cars and its competitors. 
 ### Data Needed 
-
-
+The data that would be needed are the types of cars for each car brand and mecha cars, We also need the price of the vehicles, as well as the mpg for the cars.  We would then apply the filters of sedan for car types and mpg>40 as we are only focusing on these. 
