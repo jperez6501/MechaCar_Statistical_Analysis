@@ -32,7 +32,8 @@ We would need to have the followin information on the vehicles to write our anal
 * MPG of Vehicles 
 * Types of Vehicle (sedans, suvs, crvs)
 ### Null Hypothesis
-H0 Mecha Car has the lowest prices on sedan cars that rate over 40 mpg than its competitors. 
+Ho Mecha Car has the lowest prices on sedan cars that rate over 40 mpg than its competitors. 
+
 Ha Mecha Car does not have the lowest prices on sedan cars that rate over 40 mpg than its competitors. 
 ### Statistical Test 
 The independent value would be the mpg and the dependent value would be the price of cars that have an mpg of over 40mpg. Since we have one independent variable, we would run a single linear regression test to see if mpg affects the price of cars. Next we would compare this with Mecha cars and its competitors. 
